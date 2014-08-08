@@ -317,6 +317,8 @@
 #define ID_OPTIONS_BUFNEARESTFILTER      40153
 #define ID_OPTIONS_DIRECTX               40154
 #define ID_OPTIONS_OPENGL                40155
+#define ID_TEXTURESCALING_NNEDI3         40156
+#define ID_TEXTURESCALING_SPLINE36       40157
 
 // Dummy option to let the buffered rendering hotkey cycle through all the options.
 #define ID_OPTIONS_BUFFEREDRENDERINGDUMMY 40500
