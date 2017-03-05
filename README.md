@@ -1,4 +1,16 @@
-﻿PPSSPP - a fast and portable PSP emulator
+This fork of PPSSPP includes NNEDI3 and Spline36 texture scaling.
+
+The relevant (abandoned) pull request can be found here: [#6699](https://github.com/hrydgard/ppsspp/pull/6699).
+
+The pull request to add this feature was abandoned for a few different reasons:
+
+1. It is difficult to detect OpenCL support across multiple platforms
+2. Using OpenCL complicates PPSSPP's build process quite a bit
+3. Other GPU compute implementations such as OpenGL or Vulkan compute shaders would mesh far more cleanly with the existing PPSSPP code than OpenCL does
+
+-------------------------------------------------------------------------------------
+
+PPSSPP - a fast and portable PSP emulator
 =========================================
 
 Created by Henrik Rydgård
